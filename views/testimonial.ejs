@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/testimonial.css">
+    <link rel="icon" href="images/Original logo.png">
+    <title>Testimonials</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <div class="menu-icon">☰</div>
+             <h1 class="logo"><a href="/">Kharis pro-tech</a></h1>
+            <nav>
+                <ul class="nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/features">Services</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Head -->
+    <section class="docs-head bg-primary py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="test xl">Testimonials</h1>
+                <!--<p class="lead">
+                Contact us for business.
+                </p>-->
+            </div>
+            <img class="animate__animated animate__bounce" src="images/pngegg (3).png" alt="">
+        </div>
+    </section>
+
+             <section>
+                <div class="testimonial-container">
+                    <div class="progress-bar"></div>
+                    <div class="fas fa-quote-right fa-quote"></div>
+                    <div class="fas fa-quote-left fa-quote"></div>
+                    <p class="testimonial">
+                        "Working with John as my personal graphic designer for our ministries was an absolute pleasure! His creativity, attention to detail, 
+                        and ability to understand my vision exceeded my expectations. He delivered a stunning design that 
+                        perfectly captured the essence of our ministries. I highly recommend his services and look forward to 
+                        future collaborations!"
+                    </p>
+                    <div class="user">
+                      <img
+                        src="images/Rev_james.jpeg"
+                        alt="user"
+                        class="user-image"
+                      />
+                      <div class="user-details">
+                        <h4 class="username">Rev. James Ennin</h4>
+                        <p class="role">Lead Pastor ROLCC, London UK</p>
+                      </div>
+                    </div>
+                  </div>   
+             </section>
+    
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Kharis pro-tech
+                </h1>
+                <p>Designed by John Blesson Rowe</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/features">Services</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://www.facebook.com/johnblesson.rowe"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.facebook.com/johnblesson.rowe"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com/iamjohnblessonrowe"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com/BlessonRowe"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Brevo Conversations {literal} -->
+<script>
+    (function(d, w, c) {
+        w.BrevoConversationsID = '64c7b962c7ba28200378b008';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'BrevoConversations');
+</script>
+<!-- /Brevo Conversations {/literal} -->
+<script>
+    // JavaScript to toggle the "active" class on click
+    document.querySelector('.menu-icon').addEventListener('click', function() {
+      document.querySelector('.navbar').classList.toggle('active');
+    });
+  </script>
+<script src="js/testimonial.js"></script>
+</body>
+</html>

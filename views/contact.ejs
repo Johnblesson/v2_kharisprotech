@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="icon" href="images/Original logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Contact</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+             <h1 class="logo"><a href="index.html">Kharis pro-tech</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Head -->
+    <section class="docs-head bg-primary py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="test xl">Contacts</h1>
+                <!--<p class="lead">
+                Contact us for business.
+                </p>-->
+            </div>
+            <img class="animate__animated animate__bounce" src="images/pngegg (3).png" alt="">
+        </div>
+    </section>
+
+             <!-- Docs main -->
+            <section class="docs-main my-4">
+            <div class="card">
+            <strong>
+                <div style="font-size:20px; left: -20px;">
+                    <div class="container">
+                        <div class="content">
+                          <div class="left-side">
+                            <div class="address details">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <div class="topic">Address</div>
+                              <div class="text-one">Hill Station, Freetown</div>
+                              <div class="text-two">Sierra Leone</div>
+                            </div>
+                            <div class="phone details">
+                              <i class="fas fa-phone-alt"></i>
+                              <div class="topic">Phone</div>
+                              <div class="text-one">+232 79 969094</div>
+                              <div class="text-two">+232 34 870008</div>
+                            </div>
+                            <div class="email details">
+                              <i class="fas fa-envelope"></i>
+                              <div class="topic">Email</div>
+                          <div class="text-one"><a href="mailto:johnblessonrowe@gmail.com">johnblessonrowe@gmail.com</a></div>
+                          <div  class="text-two"><a href="mailto:kharisjb@skiff.com">kharisjb@skiff.com</a></div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Kharis pro-tech
+                </h1>
+                <!--<p>Designed by John Blesson Rowe</p>-->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://www.facebook.com/johnblesson.rowe"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.facebook.com/johnblesson.rowe"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com/iamjohnblessonrowe"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com/BlessonRowe"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Brevo Conversations {literal} -->
+<script>
+    (function(d, w, c) {
+        w.BrevoConversationsID = '64c7b962c7ba28200378b008';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'BrevoConversations');
+</script>
+<!-- /Brevo Conversations {/literal} -->
+<script>
+    // JavaScript to toggle the "active" class on click
+    document.querySelector('.menu-icon').addEventListener('click', function() {
+      document.querySelector('.navbar').classList.toggle('active');
+    });
+  </script>
+  <script>
+    const toggle = document.getElementById("themeToggle");
+    const body = document.body;
+
+    toggle.addEventListener("change", function () {
+      body.classList.toggle("dark-mode");
+    });
+  </script>
+</body>
+</html>

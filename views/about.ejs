@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="icon" href="images/Original logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>About</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <div class="menu-icon">☰</div>
+             <h1 class="logo"><a href="/">Kharis pro-tech</a></h1>
+            <nav>
+                <ul class="nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/features">Services</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Head -->
+    <section class="docs-head bg-primary py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="xl">About</h1>
+                <p class="lead">
+                    Learn more about Kharis pro-tech
+                </p>
+            </div>
+            <img class="animate__animated animate__bounce" src="images/pngegg (3).png" alt="">
+        </div>
+    </section>
+
+    <!-- Docs main -->
+    <section class="docs-main my-4">
+        <div class="container grid">
+            <div class="card bg-light p-3">
+                <h3 class="my-2">Essentials</h3>
+                <nav>
+                    <ul>
+                        <li><a class="text-primary" href="/features">Features</a></li>
+                        <li><a href="/about">About Kharis pro-tech</a></li>
+                        <li><a href="/resume">Resume</a></li>
+                        <li><a href="/profile">CEO Profile</a></li>
+                        <li><a href="/testimonial">Testimonials</a></li>                        
+                    </ul>
+                </nav>
+
+                <h3 class="my-2">Our Services</h3>
+                <nav>
+                    <ul>
+                        <li><a href="/details">Software Development</a></li>
+							<li><a href="/details">Product Design</a></li>
+							<li><a href="/details">Mobile & Web Application</a></li>
+							<li><a href="/details">Graphic Design</a></li>
+                            <li><a href="/details">Cyber Security Consultant</a></li>
+                            <li><a href="/details">Penetration Testing</a></li>
+                            <li><a href="/details">Project Management</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="card">
+                <!--<h2>Introduction</h2>-->
+                
+                <p>At Kharis pro-tech, we are passionate about creating innovative software solutions that transform businesses and empower individuals. 
+                With a commitment to excellence, we leverage the latest technologies and industry best practices to deliver cutting-edge software tailored to your unique needs.</p><br>
+            
+
+                    <h1>Our Team:</h1>
+                    <p>We have assembled a team of highly skilled and experienced software engineers, designers, and project managers who are dedicated to delivering exceptional results.
+                         With a diverse range of expertise, we collaborate seamlessly to bring your ideas to life and drive your success.</p>
+
+                    <h1>Client-Centric Approach:</h1>
+                    <p>We believe in building strong partnerships with our clients. We take the time to understand your business, goals, and challenges, allowing us to provide customized 
+                        solutions that address your specific requirements. Your success is our priority, and we strive to exceed your expectations at every step of the software development process.</p>
+
+                    <h1>Our Expertise:</h1>
+                   <p> With a deep understanding of various technologies and frameworks, we have successfully delivered software solutions across multiple industries. Whether you need a web application,
+                     mobile app, enterprise software, or custom integrations, we have the expertise to tackle even the most complex </p><br>
+                     <p></p>
+
+                    <button onclick="openWhatsApp()" class="btn btn-primary">Whatsapp Us</button>
+
+                    <script>
+                        function openWhatsApp() {
+                          const phoneNumber = '+23279969094'; 
+                          const url = `https://wa.me/${phoneNumber}`;
+                    
+                          window.open(url, '_blank');
+                        }
+                      </script>
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Kharis pro-tech
+                </h1>
+                <p>Copyright &copy; 2023</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/features">Features</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://www.facebook.com/johnblesson.rowe"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.facebook.com/johnblesson.rowe"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com/iamjohnblessonrowe"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com/BlessonRowe"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Brevo Conversations {literal} -->
+<script>
+    (function(d, w, c) {
+        w.BrevoConversationsID = '64c7b962c7ba28200378b008';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'BrevoConversations');
+</script>
+<!-- /Brevo Conversations {/literal} -->
+<script>
+    // JavaScript to toggle the "active" class on click
+    document.querySelector('.menu-icon').addEventListener('click', function() {
+      document.querySelector('.navbar').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
