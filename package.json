@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/Johnblesson/web_project#readme",
   "devDependencies": {
+    "dotenv": "^16.3.1",
     "nodemon": "^3.0.1"
   }
 }
